@@ -38,6 +38,7 @@ function makerbox(a) {
   const contain = document.createElement("li");
   contain.classList.add("rounded", "rounded-2", "bg-white");
   const todos = document.createElement("span");
+  todos.classList.add("isi");
   if (a.isFinished === true) todos.classList.add("readed");
   todos.innerHTML = a.name;
   const wrap = document.createElement("div");
