@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c8ffd4;
+  font-family: "Plus Jakarta Sans";
+  color: #594545;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.row {
+  margin-top: 72px;
+}
+.row ul {
+  padding-top: 16px;
+  padding-bottom: 60px;
+  list-style-position: inside;
+  list-style: none;
+}
+
+.wrapp {
+  min-width: 600px;
+  padding: 60px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.sect {
+  background-color: #f8ffdb;
+  padding: 32px;
+  margin-bottom: 64px;
+}
+.row ul li {
+  margin-bottom: 10px;
+  padding-inline: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #9e7676 !important;
+  font-weight: bold;
+  color: #ea047e;
+}
+
+.wrap span {
+  padding: 10px;
+  cursor: pointer;
+}
+.read {
+  background-color: green;
+  margin-right: 10px;
+}
+.read svg {
+  color: white;
+}
+.delete svg {
+  color: white;
+}
+.delete {
+  background-color: red;
+}
+.readed {
+  text-decoration: line-through;
+  color: gray;
+  font-weight: normal !important;
+}
