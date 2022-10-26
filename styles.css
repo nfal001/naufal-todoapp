@@ -19,6 +19,7 @@ body {
 }
 .row {
   margin-top: 72px;
+  margin-inline: 8px;
 }
 .row ul {
   padding-top: 16px;
@@ -28,7 +29,6 @@ body {
 }
 
 .wrapp {
-  min-width: 600px;
   padding: 60px;
   background-color: white;
   margin-bottom: 10px;
